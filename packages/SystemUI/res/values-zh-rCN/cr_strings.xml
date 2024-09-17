@@ -15,6 +15,25 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Clock Weather -->
+    <string name="clock_ide_weather_data_unavailable">无</string>
+
+    <!-- System Theme Re-evaluation Toast -->
+    <string name="reevaluating_system_theme">正在重新评估系统主题..请稍等几秒钟</string>
+
+    <!-- Battery Health Notification -->
+    <string name="notification_channel_battery_health">健康充电</string>
+    <string name="notification_channel_description">健康充电通知</string>
+    <string name="notification_title_low_battery">健康充电 - 插入充电器</string>
+    <string name="notification_title_high_battery">健康充电 - 拔出充电器</string>
+    <string name="notification_title_high_battery_protect">健康充电 - 暂停充电</string>
+    <string name="notification_content_low_battery">为了电池的健康，请立即插入充电器为你的设备充电</string>
+    <string name="notification_content_high_battery">电池电量已达到健康阈值，请拔出充电器</string>
+    <string name="notification_content_high_battery_protect">电池电量已达到健康阈值，已暂停充电以保护电池</string>
+
+    <!-- Indication on the keyguard that is shown when the device entered adaptive charging state. Should match keyguard_plugged_in_adaptive_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_adaptive_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • 自适应充电 (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%1$s</xliff:g> 直至充满)</string>
+    <string name="keyguard_plugged_in_adaptive_charging"><xliff:g id="percentage">%s</xliff:g> • 自适应充电</string>
     <!-- Statusbar Icons -->
     <string name="status_bar_nfc">NFC 近场通讯</string>
     <string name="status_bar_data_saver">数据保存</string>
@@ -146,6 +165,8 @@
     <string name="by_artist">%2$s 的 %1$s</string>
     <!-- Text while recognizing face -->
     <string name="face_unlock_recognizing">正在识别面部...</string>
+    <!-- Sleep Mode -->
+    <string name="quick_settings_sleep_mode_label">睡眠模式</string>
     <!-- AI Assistant affordance [CHAR LIMIT=32] -->
     <string name="accessibility_assistant_button">AI 助手</string>
     <!-- Screen record -->
